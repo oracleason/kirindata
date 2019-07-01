@@ -1,0 +1,160 @@
+{
+  "header": {
+    "major_version": 1, 
+    "type": "com.amazon.xbt.schema.nodeinstruction.NodeInstruction", 
+    "minor_version": 0
+  }, 
+  "idempotencyKey": "12345", 
+  "creationTime": "2019-07-01T00:00:00.000Z", 
+  "node": {
+    "location": {
+      "code": "KUK2", 
+      "codeType": "NODE_ID", 
+      "locationType": "ORIGIN_CONSOLIDATION"
+    }
+  }, 
+  "consignment": {
+    "cargo": {
+      "containers": [
+        {
+          "clientProvidedReferences": [
+            {
+              "type": "PURCHASE_ORDER_NUMBER", 
+              "value": "124324"
+            }, 
+            {
+              "type": "BOOKING_ID", 
+              "value": "124324"
+            }
+          ], 
+          "volume": {
+            "unit": "CU_METER", 
+            "value": 1.0
+          }, 
+          "deliveryDetail": {
+            "location": {
+              "address": {
+                "countryCode": "US", 
+                "name": "ABE2"
+              }
+            }
+          }, 
+          "containerType": "VIRTUAL", 
+          "weight": {
+            "unit": "KG", 
+            "value": 89.4
+          }, 
+          "containerId": "124324", 
+          "items": [
+            {
+              "externalItemIdentifiers": [
+                {
+                  "externalItemIdType": "ASIN", 
+                  "externalItemIdValue": "B0757G1MYQ"
+                }
+              ], 
+              "quantity": 36, 
+              "tags": [
+                {
+                  "key": "LINE_ITEM_ID", 
+                  "value": "SZ1L000116372"
+                }
+              ], 
+              "itemId": "124324"
+            }
+          ], 
+          "contentSummary": {
+            "containerTypeToCountMappings": [
+              {
+                "containerType": "CARTON", 
+                "count": 3
+              }
+            ]
+          }, 
+          "shippingRequestHierarchicalId": {
+            "shippingRequestContainerId": "2d3f75be-478e-49e4-ae7a-8b12699aa10d", 
+            "shippingRequestId": "100r-1cto-q96p-bnd0"
+          }
+        }, 
+        {
+          "clientProvidedReferences": [
+            {
+              "type": "PURCHASE_ORDER_NUMBER", 
+              "value": "QA000002"
+            }, 
+            {
+              "type": "BOOKING_ID", 
+              "value": "AMZTEST00011QA1"
+            }
+          ], 
+          "volume": {
+            "unit": "CU_METER", 
+            "value": 3.7
+          }, 
+          "deliveryDetail": {
+            "location": {
+              "address": {
+                "countryCode": "US", 
+                "name": "ABE2"
+              }
+            }
+          }, 
+          "containerType": "VIRTUAL", 
+          "weight": {
+            "unit": "KG", 
+            "value": 61.6
+          }, 
+          "containerId": "2d3f75be-478e-49e4-ae7a-container002", 
+          "items": [
+            {
+              "externalItemIdentifiers": [
+                {
+                  "externalItemIdType": "ASIN", 
+                  "externalItemIdValue": "B06WVMKWBP"
+                }
+              ], 
+              "quantity": 48, 
+              "tags": [
+                {
+                  "key": "LINE_ITEM_ID", 
+                  "value": "SZ1L000116373"
+                }
+              ], 
+              "itemId": "54ca347c-9781-4770-b146-itemsid00002"
+            }
+          ], 
+          "contentSummary": {
+            "containerTypeToCountMappings": [
+              {
+                "containerType": "CARTON", 
+                "count": 4
+              }
+            ]
+          }, 
+          "shippingRequestHierarchicalId": {
+            "shippingRequestContainerId": "61833bc9-96b1-441f-ae69-0797d3020533", 
+            "shippingRequestId": "100r-1cto-q96p-bnd0"
+          }
+        }
+      ]
+    }
+  }, 
+  "logisticsServices": [
+    {
+      "consolidationCriteria": {
+        "consolidationGroup": "GROUP2"
+      }, 
+      "serviceProvider": {
+        "id": "CDS", 
+        "type": "ORIGIN_CONSOLIDATOR"
+      }, 
+      "header": {
+        "major_version": 1, 
+        "type": "com.amazon.xbt.schema.nodeinstruction.logisticsservice.Consolidation", 
+        "minor_version": 0
+      }
+    }
+  ], 
+  "id": "7211-jy25-m480-g6ra", 
+  "version": 1
+}

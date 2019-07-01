@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vbr:Transmission xmlns:vbr="http://internal.amazon.com/VendorBookingRequestSchema">
+  <sendingPartyId>CDS</sendingPartyId>
+  <receivingPartyId>AMAZON</receivingPartyId>
+  <transmissionControlNumber>16567502</transmissionControlNumber>
+  <transmissionCreationDate>2018-08-02T15:07:22Z</transmissionCreationDate>
+  <transmissionStructureVersion>2.0</transmissionStructureVersion>
+  <messageCount>1</messageCount>
+  <isTest>0</isTest>
+  <Message seq="1">
+    <sendingPartyId>CDS</sendingPartyId>
+    <receivingPartyId>AMAZON</receivingPartyId>
+    <messageCreationDate>2018-08-02T15:07:22Z</messageCreationDate>
+    <messageStructureVersion>2.0</messageStructureVersion>
+    <messageType>VENDOR_BOOKING_REQUEST</messageType>
+    <region>US</region>
+    <vendorBookingRequest>
+      <vbrVersion>1</vbrVersion>
+      <vbrExternalId>AMZTEST00011QA1</vbrExternalId>  
+      <vendorCode>JUT19</vendorCode>
+      <estimatedCargoDeliveryDate>2018-08-28T00:00:00</estimatedCargoDeliveryDate>
+      <isExportLicenseRequired>0</isExportLicenseRequired>
+      <isSolidWoodPacking>0</isSolidWoodPacking>
+      <isPalletized>0</isPalletized>
+      <palletCount>0</palletCount>
+      <bookingType>CFS</bookingType>
+      <shipMode>OCEAN</shipMode>
+      <vbrCreationDate>2018-08-02T15:07:22Z</vbrCreationDate>
+      <vbrCreatedBy>mtang@justplayproducts.com</vbrCreatedBy>
+      <lastUpdatedDate>2018-08-02T04:31:27Z</lastUpdatedDate>
+      <lastUpdatedBy>mtang@just</lastUpdatedBy>
+      <clientId>FreightForwarder</clientId>
+      <vbrState>Confirmed</vbrState>
+      <grossWeight>0</grossWeight>
+      <grossVolume>0</grossVolume>
+      <weightUOM>kilograms</weightUOM>
+      <volumeUOM>cuMeter</volumeUOM>
+      <currency>USD</currency>
+      <bookingNotes>
+        <note>
+          <sender>AMZ458-0</sender>
+          <text></text>
+        </note>
+      </bookingNotes>
+      <freightForwarder>
+        <name>CDS</name>
+      </freightForwarder>
+      <originPort>
+        <cityUNLOC>CNYTN</cityUNLOC>
+        <countryCode>CN</countryCode>
+      </originPort>
+      <dischargePort>
+        <cityUNLOC>UNKWN</cityUNLOC>
+        <countryCode>XX</countryCode>
+      </dischargePort>
+      <fcr>
+        <fcrIssuedTo>Seller</fcrIssuedTo>
+      </fcr>
+      <poDetails>
+        <poDetail>
+          <poId>QA000001</poId>
+          <shipWindowStart>2018-08-26T00:00:00Z</shipWindowStart>
+          <shipWindowEnd>2018-09-02T00:00:00Z</shipWindowEnd>
+          <poCreationDate>2018-05-06T13:25:14Z</poCreationDate>
+          <vendorCode>JUT19</vendorCode>
+          <fc>LGB1</fc>
+          <handler>eo</handler>
+          <countryCode>CN</countryCode>
+          <freightTerms>FOB</freightTerms>
+          <gl>
+            <description>Toys</description>
+            <code>0</code>
+          </gl>
+        </poDetail>
+        <poDetail>
+          <poId>QA000002</poId>
+          <shipWindowStart>2018-08-26T00:00:00Z</shipWindowStart>
+          <shipWindowEnd>2018-09-02T00:00:00Z</shipWindowEnd>
+          <poCreationDate>2018-05-06T13:25:14Z</poCreationDate>
+          <vendorCode>JUT19</vendorCode>
+          <fc>LGB2</fc>
+          <handler>eo</handler>
+          <countryCode>CN</countryCode>
+          <freightTerms>FOB</freightTerms>
+          <gl>
+            <description>Toys</description>
+            <code>0</code>
+          </gl>
+        </poDetail>
+      </poDetails>
+      <addressDetails>
+        <addressDetail>
+          <addressId>84717096</addressId>
+          <address>
+            <Line1>Floor 1-2, Block E of Power Printing(He Yuan) Co,</Line1>
+            <Line2>East of Gaopu Road, West of Tielu Xilu,</Line2>
+            <City>Hi-Tech Development Zone,  Heyuan City,</City>
+            <StateOrProvinceCode>Guangdong Province</StateOrProvinceCode>
+            <PostalCode>517000</PostalCode>
+            <CountryCode>CN</CountryCode>
+          </address>
+          <contact>
+            <contactId>CDS</contactId>
+            <name>Floor 1-2, Block E of Power Printing(He Yuan) Co,</name>
+            <phone>555-555-5555</phone>
+            <email>VBR-OPS@cds-net.com</email>
+            <isPrimary>false</isPrimary>
+          </contact>
+        </addressDetail>
+      </addressDetails>
+      <asinDetails>
+        <asinDetail>
+          <asin id="B0757G1MYQ" vendorProductId="B0757G1MYQ" poId="QA000001"/>
+          <asinDetailExternalId>SZ1L000116372</asinDetailExternalId>
+          <description></description>
+          <modelNo>2104000</modelNo>
+          <customsFriendlyDescription>PJ Masks Die Cast Playset</customsFriendlyDescription>
+          <htcList>
+            <htc>9503.00.0073</htc>
+          </htcList>
+          <gl>
+            <description>Toys</description>
+            <code>0</code>
+          </gl>
+          <units>
+            <ordered>172</ordered>
+            <shipped>0</shipped>
+          </units>
+          <costPerUnit>12</costPerUnit>
+          <manufacturers>
+            <manufacturer>
+              <bookingDetail units="36" cartons="3" netWeight="0" grossWeight="190.950" grossVolume="1.620"/>
+              <addressId>84717096</addressId>
+            </manufacturer>
+          </manufacturers>
+        </asinDetail>
+        <asinDetail>
+          <asin id="B06WVMKWBP" vendorProductId="B06WVMKWBP" poId="QA000002"/>
+          <asinDetailExternalId>SZ1L000116373</asinDetailExternalId>
+          <description></description>
+          <modelNo>2104000</modelNo>
+          <customsFriendlyDescription>PJ Masks Die Cast Playset</customsFriendlyDescription>
+          <htcList>
+            <htc>9503.00.0073</htc>
+          </htcList>
+          <gl>
+            <description>Toys</description>
+            <code>0</code>
+          </gl>
+          <units>
+            <ordered>434</ordered>
+            <shipped>0</shipped>
+          </units>
+          <costPerUnit>12</costPerUnit>
+          <manufacturers>
+            <manufacturer>
+              <bookingDetail units="48" cartons="4" netWeight="0" grossWeight="471.010" grossVolume="3.990"/>
+              <addressId>84717096</addressId>
+            </manufacturer>
+          </manufacturers>
+        </asinDetail>
+      </asinDetails>
+    </vendorBookingRequest>
+  </Message>
+</vbr:Transmission>
